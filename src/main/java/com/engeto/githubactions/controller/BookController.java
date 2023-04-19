@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BookController {
 
-//	@RequestMapping("/books")
-//	public @ResponseBody String getAllBooks() {
-//		return "Hello, Books";
-//	}
+	@RequestMapping("/books")
+	public @ResponseBody String getAllBooks() {
+		return "Hello, Books";
+	}
 }

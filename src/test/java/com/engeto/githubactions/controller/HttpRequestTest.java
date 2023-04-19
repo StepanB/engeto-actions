@@ -17,7 +17,7 @@ public class HttpRequestTest {
 	@Autowired
 	private TestRestTemplate restTemplate;
 
-//	@Test
+	@Test
 	public void greetingShouldReturnDefaultMessage() {
 		assertThat(this.restTemplate
 				.getForObject(
@@ -26,7 +26,7 @@ public class HttpRequestTest {
 				.contains("Hello, World");
 	}
 
-//	@Test
+	@Test
 	public void greetingShouldReturnBooksMessage() {
 		assertThat(this.restTemplate
 				.getForObject(

@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AuthorController {
 
-//	@GetMapping("/authors")
-//	public @ResponseBody String getAllAuthors() {
-//		return "Hello, Authors";
-//	}
+	@GetMapping("/authors")
+	public @ResponseBody String getAllAuthors() {
+		return "Hello, Authors";
+	}
 }
