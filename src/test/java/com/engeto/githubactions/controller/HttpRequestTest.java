@@ -32,6 +32,6 @@ public class HttpRequestTest {
 				.getForObject(
 						"http://localhost:" + port + "/books",
 						String.class))
-				.contains("Hello, World");
+				.contains("Hello, Books");
 	}
 }
