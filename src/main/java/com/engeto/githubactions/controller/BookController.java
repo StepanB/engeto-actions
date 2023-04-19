@@ -9,6 +9,6 @@ public class BookController {
 
 	@RequestMapping("/books")
 	public @ResponseBody String getAllBooks() {
-		return "Hello, Books";
+		return "";
 	}
 }
