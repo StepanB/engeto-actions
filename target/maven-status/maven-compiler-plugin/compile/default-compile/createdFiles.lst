@@ -1,0 +1,4 @@
+com/engeto/githubactions/controller/AuthorController.class
+com/engeto/githubactions/controller/BookController.class
+com/engeto/githubactions/GitHubActionsApplication.class
+com/engeto/githubactions/controller/HomeController.class
